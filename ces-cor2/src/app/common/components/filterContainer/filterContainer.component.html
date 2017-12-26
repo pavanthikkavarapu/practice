@@ -1,0 +1,14 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Filter Container</h2>
+            
+            <a href routerLink="/timeline">Go back</a>
+        
+            <div class="dashed-border-gray">
+                <button class="filter-link-button margin-10" *ngFor="let title of filterTitles" > {{ title }}</button>
+            </div>
+        </div>
+    </div>
+</div>
