@@ -345,13 +345,4 @@ h2{
 
 }
 
-/*scrollup animations*/
-.scrollToTop {
-  margin: 0 30px 20px 0;
-  text-align: center;
-  text-decoration: none;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: none;
-}
+
